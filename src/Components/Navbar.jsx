@@ -7,18 +7,19 @@ import { NavLink } from 'react-router';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
- 
+
   return (
-    <div className=" w-full fixed z-[99999]">
-      <div className='relative  shadow dark:bg-gray-800 bg-purple-200 '>
+    <div className=" w-full sticky ">
+      <div className='relative  shadow  bg-purple-200 '>
         <nav className="w-11/12 mx-auto">
           <div className="py-4 mx-auto">
             <div className="lg:flex lg:items-center lg:justify-between">
               <div className="flex items-center justify-between">
                 <div>
-                  <h2 className="text-xl font-bold">NH<span className='text-orange-500'>MIZAN</span> </h2>
+                  <h2 className="text-3xl font-bold"><span className='text-cyan-400'>NH</span> MIZAN<span className='text-cyan-400'>.</span> </h2>
 
                 </div>
+                
                 {/* Mobile menu button */}
                 <div className="flex lg:hidden z-[1]">
                   <button
@@ -61,11 +62,12 @@ const Navbar = () => {
                   </button>
 
                   <div className='ml-4'>
+                    
+                  </div>
 
-                    </div>
 
-
-                  </div>             
+                </div>
+              
 
               </div>
 
@@ -82,16 +84,29 @@ const Navbar = () => {
                     Home
                   </NavLink>
                   <NavLink
-                    to={'/biodatas'}
-                    className="px-3 py-2 mx-3 mt-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700"
-                  >
-                    Biodatas
-                  </NavLink>
-                  <NavLink
                     to={'/about'}
                     className="px-3 py-2 mx-3 mt-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700"
                   >
                     About Us
+                  </NavLink>
+                  <NavLink
+                    to={'/skills'}
+                    className="px-3 py-2 mx-3 mt-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700"
+                  >
+                    Skills
+                  </NavLink>
+
+                  <NavLink
+                    to={'/education'}
+                    className="px-3 py-2 mx-3 mt-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700"
+                  >
+                    Education
+                  </NavLink>
+                  <NavLink
+                    to={'/projects'}
+                    className="px-3 py-2 mx-3 mt-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700"
+                  >
+                    Projects
                   </NavLink>
                   <NavLink
                     to={'/contact'}
@@ -102,11 +117,14 @@ const Navbar = () => {
                 </div>
 
 
-           
+                <div>
+              <button className='btn btn-primary'>Hello</button>
+            </div>
               </div>
 
             </div>
-                  </div>
+           
+          </div>
         </nav>
       </div>
     </div>
