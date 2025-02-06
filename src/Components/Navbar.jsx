@@ -16,7 +16,7 @@ const Navbar = () => {
             <div className="lg:flex lg:items-center lg:justify-between">
               <div className="flex items-center justify-between">
                 <div>
-                  <h2 className="text-3xl font-bold"><span className='text-cyan-400'>NH</span> MIZAN<span className='text-cyan-400'>.</span> </h2>
+                  <h2 className="text-3xl font-bold"><span className='span-color'>NH</span> MIZAN<span className='span-color'>.</span> </h2>
 
                 </div>
                 
