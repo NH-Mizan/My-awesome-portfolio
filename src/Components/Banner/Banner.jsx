@@ -7,13 +7,13 @@ const Banner = () => {
     return (
         <div>
             <div
-                className="hero h-[500px]"
+                className="hero h-[500px] pt-12"
                 style={{
                     backgroundImage: "url(https://i.ibb.co.com/whf5ZMdv/website-technology-line-dark-powerpoint-background-5d36931b39-960-540.jpg)",
                 }}>
                 <div className="hero-overlay bg-slate-900 opacity-80"></div>
                 <div className="hero-content text-neutral-content z-[99]">
-                    <div className="hero ">
+                    <div className="hero mt-24">
                         <div className="flex justify-between items-center gap-16 flex-col lg:flex-row-reverse">
                             <img
                                 src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
