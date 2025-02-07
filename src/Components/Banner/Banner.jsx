@@ -7,7 +7,7 @@ const Banner = () => {
     return (
         <div>
             <div
-                className="hero h-[500px] pt-12"
+                className="hero h-[500px] "
                 style={{
                     backgroundImage: "url(https://i.ibb.co.com/whf5ZMdv/website-technology-line-dark-powerpoint-background-5d36931b39-960-540.jpg)",
                 }}>
@@ -16,7 +16,7 @@ const Banner = () => {
                     <div className="hero mt-24">
                         <div className="flex justify-between items-center gap-16 flex-col lg:flex-row-reverse">
                             <img
-                                src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
+                                src=""
                                 className=" rounded-lg shadow-2xl" />
                             <div>
                                 <h1 className="text-5xl font-bold">Hi! I&apos;m MD:NAHID HASAN MIZAN</h1>

@@ -2,7 +2,7 @@ import  { useEffect } from 'react';
 
 const Contact = () => {
   useEffect(()=>{
- document.title ='Contacts Us || NH MIZAN'
+//  document.title ='Contacts Us || NH MIZAN'
   },[])
   const handleSubmit = (e) => {
     e.preventDefault();

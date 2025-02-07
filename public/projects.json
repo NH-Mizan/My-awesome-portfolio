@@ -1,0 +1,16 @@
+
+[
+    {
+        "id":1,
+        "project_Name":"Crowd Funding",
+        "image":"Croud",
+        "technology":" React, Tailwind CSS, Daisy Ui, Firebase, Node.js , Express.js, MongoDB",
+        "description":"The crowd-funding-website simplifies the process of donating winter clothing. By bridging the gap between donors and recipients, the website ensures that essential winter gear reaches those who need it most.",
+        "live":"https://crowd-funding-ass-10.web.app/",
+        "client":"https://github.com/NH-Mizan/Crowd-Funding-client-site.git",
+        "server":"https://github.com/NH-Mizan/Crowd-Funding-client-site.git",
+        "stragole":"Croud",
+        "deploy":"new React pakage added "
+
+    }
+]

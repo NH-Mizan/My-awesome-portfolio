@@ -9,11 +9,11 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className=" w-full fixed  t-0 z-[9999] bg-dark">
+    <div className=" w-full fixed  t-0 z-[9] bg-dark  ">
       <div className='relative   '>
         <nav className="w-11/12 mx-auto">
           <div className="py-4 mx-auto">
-            <div className="lg:flex lg:items-center lg:justify-between">
+            <div className="lg:flex lg:items-center lg:justify-between ">
               <div className="flex items-center justify-between">
                 <div>
                   <h2 className="text-3xl text-white font-bold"><span className='span-color'>NH</span> MIZAN<span className='span-color'>.</span> </h2>
