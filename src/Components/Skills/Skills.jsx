@@ -4,7 +4,7 @@ import Marquee from "react-fast-marquee";
 const Skills = () => {
     return (
         <div  className="bg-dark py-8"> 
-              <h1 className="text-center my-8 text-5xl text-white font-bold">Skills  <span className="span-color">Now!</span></h1>
+              <h1 className="text-center my-8 text-5xl text-white font-bold">I Have <span className="span-color">Skills!</span></h1>
            <div className="">
            <Marquee className="w-11/12 mx-auto gradient-true">
                 

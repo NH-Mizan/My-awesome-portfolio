@@ -3,13 +3,14 @@
 
 
 import { useState } from 'react';
+import { FaDownload } from 'react-icons/fa6';
 import { NavLink } from 'react-router';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className=" w-full fixed  t-0 z-[9] bg-dark  ">
+    <div className=" w-full fixed  t-0 z-[99] bg-dark">
       <div className='relative   '>
         <nav className="w-11/12 mx-auto">
           <div className="py-4 mx-auto">
@@ -73,7 +74,7 @@ const Navbar = () => {
 
               {/* Mobile Menu */}
               <div
-                className={`absolute inset-x-0 z-20 w-full px-6 py-4 transition-all duration-300 ease-in-out bg-white dark:bg-gray-800 lg:mt-0 lg:p-0 lg:top-0 lg:relative lg:bg-transparent lg:w-auto lg:opacity-100 lg:translate-x-0 lg:flex lg:items-center ${isOpen ? 'translate-x-0 opacity-100' : 'opacity-0 -translate-x-full'
+                className={`absolute inset-x-0 z-20 w-full px-6 py-4 transition-all duration-300 ease-in-out bg-dark dark:bg-gray-800 lg:mt-0 lg:p-0 lg:top-0 lg:relative lg:bg-transparent lg:w-auto lg:opacity-100 lg:translate-x-0 lg:flex lg:items-center ${isOpen ? 'translate-x-0 opacity-100' : 'opacity-0 -translate-x-full'
                   }`}
               >
                 <div className="flex flex-col -mx-6 lg:flex-row font-bold lg:items-center lg:mx-8 ">
@@ -117,9 +118,7 @@ const Navbar = () => {
                 </div>
 
 
-                <div>
-              <button className='btn btn-primary'>Hello</button>
-            </div>
+                <div className="btn-pro-max text-sm ">  <button className="flex items-center gap-2">Resume Here <FaDownload /></button></div>
               </div>
 
             </div>

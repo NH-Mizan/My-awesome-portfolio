@@ -2,8 +2,8 @@
 
 const About = () => {
   return (
-    <div className="w-11/12 mx-auto ">
-      <div className="hero my-16">
+    <div className="w-11/12 mx-auto min-h-screen pt-12">
+      <div className="hero  ">
         <div className="flex justify-between items-center gap-12 flex-col lg:flex-row">
           <img
             src="https://i.ibb.co.com/7x0dcdZS/nahid-removebg-preview.png"
@@ -16,8 +16,8 @@ const About = () => {
             </p>
           
           <div className="">
-          <button className="btn btn-primary mr-6">Hire Me</button>
-          <button className="btn btn-primary btn-outline">Let&apos;s Talk</button>
+          <button className="btn-pro mr-6">Hire Me</button>
+          <button className="btn-pro-max">Let&apos;s Talk</button>
           </div>
           </div>
         </div>

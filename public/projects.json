@@ -1,16 +1,38 @@
-
 [
     {
-        "id":1,
-        "project_Name":"Crowd Funding",
-        "image":"Croud",
-        "technology":" React, Tailwind CSS, Daisy Ui, Firebase, Node.js , Express.js, MongoDB",
-        "description":"The crowd-funding-website simplifies the process of donating winter clothing. By bridging the gap between donors and recipients, the website ensures that essential winter gear reaches those who need it most.",
-        "live":"https://crowd-funding-ass-10.web.app/",
-        "client":"https://github.com/NH-Mizan/Crowd-Funding-client-site.git",
-        "server":"https://github.com/NH-Mizan/Crowd-Funding-client-site.git",
-        "stragole":"Croud",
-        "deploy":"new React pakage added "
-
+        "id": 1,
+        "project_Name": "Crowd Funding",
+        "image": "https://i.ibb.co.com/xS1dWFRr/Screenshot-105.png",
+        "technology": "React, Tailwind CSS, Daisy UI, Firebase, Node.js, Express.js, MongoDB",
+        "description": "The crowd-funding website simplifies the process of donating winter clothing. By bridging the gap between donors and recipients, the website ensures that essential winter gear reaches those who need it most.",
+        "live": "https://crowd-funding-ass-10.web.app/",
+        "client": "https://github.com/NH-Mizan/Crowd-Funding-client-site.git",
+        "server": "https://github.com/NH-Mizan/Crowd-Funding-client-site.git",
+        "challenges": "Managing real-time updates for donation status and handling authentication securely was a challenge. Integrating Firebase authentication while maintaining a seamless user experience required multiple optimizations.",
+        "future_plans": "Future plans include adding AI-driven recommendations for donation matching, improving UI responsiveness, and enhancing security features for donor data protection."
+    },
+    {
+        "id": 2,
+        "project_Name": "FindItZone",
+        "image": "https://i.ibb.co.com/1JJCKCnC/Screenshot-107.png",
+        "technology": "React, Tailwind CSS, Daisy UI, Firebase, Node.js, Express.js, MongoDB",
+        "description": "FindItZone is a comprehensive platform designed to help individuals report, track, and reclaim lost or found items within their community. By connecting people, it aims to simplify the process of reuniting items with their rightful owners.",
+        "live": "https://lost-and-found-8b82c.web.app/",
+        "client": "https://github.com/NH-Mizan/Lost-And-Found-Client-Site.git",
+        "server": "https://github.com/NH-Mizan/Crowd-Funding-client-site.git",
+        "challenges": "One major challenge was building a real-time tracking system that allows users to update lost/found item statuses dynamically. Ensuring user-generated content is reliable and preventing spam posts was another issue.",
+        "future_plans": "Future improvements include integrating AI-powered image recognition for lost items, improving search algorithms, and adding a reward system to encourage item returns."
+    },
+    {
+        "id": 3,
+        "project_Name": "MatchNest",
+        "image": "https://i.ibb.co.com/tnRsRXC/Screenshot-106.png",
+        "technology": "React, Tailwind CSS, Material Tailwind, Firebase, Node.js, Express.js, MongoDB",
+        "description": "MatchNest is a matchmaking platform that helps users find potential matches based on their preferences. It simplifies the search process through intelligent filtering and secure authentication.",
+        "live": "https://matchnest-project.web.app/",
+        "client": "https://github.com/Programming-Hero-Web-Course4/b10a12-client-side-NH-Mizan.git",
+        "server": "https://github.com/Programming-Hero-Web-Course4/b10a12-server-side-NH-Mizan.git",
+        "challenges": "Implementing an effective and privacy-focused matchmaking algorithm was a challenge. Ensuring data security and handling user authentication seamlessly required extra attention.",
+        "future_plans": "Future updates will include AI-driven profile recommendations, improved chat features, and advanced filtering options for better matchmaking accuracy."
     }
 ]

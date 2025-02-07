@@ -12,6 +12,142 @@ body{
 .bg-dark{
     background-color:  #10041c;
 }
-.text-color{
+p {
     color: #61557c;
+}
+h1,
+h2,
+h3 {
+    color: #ffffff;
+}
+.btn-ui {
+    font-size: 15px;
+    margin-right: 8px;
+    box-shadow: 1px 1px 10px #00ff95;
+    transition: all 0.7s;
+    text-align: center;
+    color: #00ff95;
+    border: 1px solid #00ff95;
+    border-radius: 50px;
+    padding: 8px;
+    height: 35px;
+    width: 35px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.btn-ui::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: -200px;
+    background-color: #00ff95;
+    z-index: -1;
+    transition: all 0.7s;
+}
+
+.btn-ui:hover::after {
+    right: 0;
+    transition: all 0.7s
+}
+
+
+.btn-ui:hover {
+
+    transition: all 0.7s;
+    color: #10041c;
+
+    transition: all .5s;
+}
+
+
+
+/* button 2 */
+.btn-pro{
+    color: #10041c;
+    border: 2px solid #00ff95;
+    padding: 15px 5px;
+    width: 130px;
+    display: inline-block;
+    border-radius: 8px;
+    background-color: #00ff95;
+    font-weight: 700;
+    box-shadow: 1px 1px 10px #00ff95;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    z-index: 1;
+    transition: all 0.7s;
+
+
+}
+
+.btn-pro::after {
+    content: "";
+    position: absolute;
+    background-color: #10041c;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: -200px;
+    transition: all 0.7s;
+    z-index: -1;
+
+}
+
+.btn-pro:hover::after {
+    right: 0;
+    transition: all 0.7s;
+}
+
+.btn-pro:hover {
+    color: #00ff95;
+    transition: all 0.7s;
+}
+
+
+/* button pro max */
+.btn-pro-max{
+    background-color: #10041c;
+    color: #00ff95;
+    border: 2px solid #00ff95;
+    padding: 15px 5px;
+    width: 130px;
+    display: inline-block;
+    border-radius: 8px;
+    font-weight: 700;
+    box-shadow: 1px 1px 10px #00ff95;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    z-index: 1;
+    transition: all 0.7s;
+}
+
+.btn-pro-max::after {
+    content: "";
+    position: absolute;
+    background-color: #00ff95;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: -200px;
+    transition: all 0.7s;
+    z-index: -1;
+
+}
+.btn-pro-max:hover::after {
+    right: 0;
+    transition: all 0.7s;
+}
+
+.btn-pro-max:hover {
+    color: #10041c;
+    transition: all 0.7s;
 }
