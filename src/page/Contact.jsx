@@ -1,7 +1,9 @@
 import { useEffect } from 'react';
-import { BsSendFill } from 'react-icons/bs';
+
 import { FaPhoneAlt } from 'react-icons/fa';
-import { IoHome } from 'react-icons/io5';
+import { FaLocationDot } from 'react-icons/fa6';
+
+import { TbLocationFilled } from 'react-icons/tb';
 import { TfiEmail } from 'react-icons/tfi';
 
 const Contact = () => {
@@ -14,7 +16,7 @@ const Contact = () => {
   };
 
   return (
-    <div className=" min-h-screen flex flex-col items-center py-10 px-4">
+    <div id='contact' className=" min-h-screen flex flex-col items-center py-10 px-4">
       <h1 className="text-center my-8 text-5xl text-white font-bold">Contact  <span className="span-color">Us!</span></h1>
       <div className="border-2 border-[#61557c]  shadow-lg rounded-lg overflow-hidden md:flex md:max-w-4xl w-full">
         {/* Left Section: Contact Form */}
@@ -25,7 +27,7 @@ const Contact = () => {
               <label className="block text-gray-700 font-bold">Your Name</label>
               <input
                 type="text"
-                className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring focus:ring-blue-300"
+                className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring focus:ring-blue-300 border-[#61557c] "
                 placeholder="Enter your name"
                 required
               />
@@ -34,7 +36,7 @@ const Contact = () => {
               <label className="block text-gray-700 font-bold">Email</label>
               <input
                 type="email"
-                className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring focus:ring-blue-300"
+                className="w-full px-4 py-2  rounded-lg focus:outline-none focus:ring focus:ring-blue-300  border-[#61557c] "
                 placeholder="Enter your email"
                 required
               />
@@ -42,13 +44,13 @@ const Contact = () => {
             <div>
               <label className="block text-gray-700 font-bold">Message</label>
               <textarea
-                className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring focus:ring-blue-300"
+                className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring focus:ring-blue-300 border-[#61557c]"
                 rows="5"
                 placeholder="Enter your message"
                 required
               ></textarea>
             </div>
-            <div className="btn-pro text-sm ">  <button type="submit" className="flex items-center gap-2"> Send Message  <BsSendFill className='mt-2 ' /></button></div>
+            <div className="btn-pro text-sm text-center ">  <button type="submit" className="flex items-center gap-2"> <TbLocationFilled className='text-xl' /> Send </button></div>
 
           </form>
         </div>
@@ -68,11 +70,11 @@ const Contact = () => {
             </div>
             <div className="flex items-center gap-6">
 
-            <IoHome className='w-18' />
+            <FaLocationDot className='w-12'/> 
 
               <div >
               <h4 className="font-bold">Address</h4>
-              <p className='font-bold'> 123 Matrimony Street, Dinajpur, Bangladesh</p>
+              <p className='font-bold'> Dinajpur, Bangladesh</p>
               </div>
             </div>
             <div className="flex items-center gap-6">

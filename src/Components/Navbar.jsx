@@ -3,11 +3,18 @@
 
 
 import { useState } from 'react';
-import { FaDownload } from 'react-icons/fa6';
+import { FaBars, FaDownload } from 'react-icons/fa6';
 import { NavLink } from 'react-router';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const scrollToSection = (id) => {
+    const section = document.getElementById(id);
+    if (section) {
+      
+        section.scrollIntoView({ behavior: 'smooth' });
+    }
+};
 
   return (
     <div className=" w-full fixed  t-0 z-[99] bg-dark">
@@ -30,20 +37,7 @@ const Navbar = () => {
                     aria-label="toggle menu"
                   >
                     {!isOpen ? (
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        className="w-6 h-6"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          d="M4 8h16M4 16h16"
-                        />
-                      </svg>
+                     <FaBars className='w-6 h-6' />
                     ) : (
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -79,38 +73,38 @@ const Navbar = () => {
               >
                 <div className="flex flex-col -mx-6 lg:flex-row font-bold lg:items-center lg:mx-8 ">
                   <NavLink
-                    to={'/'}
+                    onClick={()=>scrollToSection('banner')}
                     className="px-3 py-2 mx-3 mt-2 text-white transition-colors duration-300 transform rounded-md lg:mt-0 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700"
                   >
                     Home
                   </NavLink>
                   <NavLink
-                    to={'/about'}
+                  onClick={()=>scrollToSection('about')}
                     className="px-3 py-2 mx-3 mt-2 text-white transition-colors duration-300 transform rounded-md lg:mt-0 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700"
                   >
                     About Us
                   </NavLink>
                   <NavLink
-                    to={'/skills'}
+                   onClick={()=>scrollToSection('skills')}
                     className="px-3 py-2 mx-3 mt-2 text-white transition-colors duration-300 transform rounded-md lg:mt-0 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700"
                   >
                     Skills
                   </NavLink>
 
                   <NavLink
-                    to={'/education'}
+                    onClick={()=>scrollToSection('education')}
                     className="px-3 py-2 mx-3 mt-2 text-white transition-colors duration-300 transform rounded-md lg:mt-0 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700"
                   >
                     Education
                   </NavLink>
                   <NavLink
-                    to={'/projects'}
+                    onClick={()=>scrollToSection('portfolio')}
                     className="px-3 py-2 mx-3 mt-2 text-white transition-colors duration-300 transform rounded-md lg:mt-0 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700"
                   >
                     Projects
                   </NavLink>
                   <NavLink
-                    to={'/contact'}
+                    onClick={()=>scrollToSection('contact')}
                     className="px-3 py-2 mx-3 mt-2 text-white transition-colors duration-300 transform rounded-md lg:mt-0 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700"
                   >
                     Contact Us

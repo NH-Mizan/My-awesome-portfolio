@@ -11,7 +11,7 @@ const Projects = () => {
   }, []);
 
   return (
-    <div className="w-11/12 mx-auto py-10">
+    <div id="portfolio" className="w-11/12 mx-auto py-10">
       <h1 className="text-center my-8 text-5xl text-white font-bold">
         <span className="span-color">MY</span> PORTFOLIO
       </h1>

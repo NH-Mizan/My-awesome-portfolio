@@ -7,7 +7,7 @@ import { Typewriter } from "react-simple-typewriter";
 
 const Banner = () => {
     return (
-        <div>
+        <div id="banner">
             <div
                 className="hero min-h-screen pt-12 "
                 style={{
@@ -24,7 +24,7 @@ const Banner = () => {
                                 transition={{ duration: 10, repeat: Infinity }}
                                 className=" rounded-lg shadow-2xl w-96" />
                             <div>
-                                <h1 className="text-5xl my-8 font-bold">Hi! I&apos;m MD:NAHID HASAN MIZAN</h1>
+                                <h1 className="text-5xl my-8 font-bold">Hi! I&apos;m <span className="font-semibold "> MD:Nahid Hasan Mizan</span></h1>
                                 <h1 className="text-3xl span-color font-bold">
                                     <Typewriter
                                         words={[

@@ -5,6 +5,9 @@ body{
     background-color:  #10041c;
    
 }
+.active{
+    color: #00ff95;
+}
 
 .span-color{
     color: #00ff95;
@@ -70,7 +73,7 @@ h3 {
 .btn-pro{
     color: #10041c;
     border: 2px solid #00ff95;
-    padding: 15px 5px;
+    padding: 10px 7px;
     width: 130px;
     display: inline-block;
     border-radius: 8px;
@@ -116,7 +119,7 @@ h3 {
     background-color: #10041c;
     color: #00ff95;
     border: 2px solid #00ff95;
-    padding: 15px 5px;
+    padding: 10px 7px;
     width: 130px;
     display: inline-block;
     border-radius: 8px;
