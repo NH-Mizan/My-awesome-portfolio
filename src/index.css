@@ -154,3 +154,18 @@ h3 {
     color: #10041c;
     transition: all 0.7s;
 }
+
+
+.border-re{
+    border-radius: 50% 50% 5px 5px;
+    box-shadow: -1px 5px 50px  #00ff95;
+
+}
+
+
+.bg-gradient {
+    background: linear-gradient(-25deg,#c33bf9  0%,#00ff95 100%);
+    color: transparent !important;
+    background-clip: text;
+
+}

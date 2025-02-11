@@ -24,8 +24,8 @@ const Banner = () => {
                                 transition={{ duration: 10, repeat: Infinity }}
                                 className=" rounded-lg shadow-2xl w-96" />
                             <div>
-                                <h1 className="text-5xl my-8 font-bold">Hi! I&apos;m <span className="font-semibold "> MD:Nahid Hasan Mizan</span></h1>
-                                <h1 className="text-3xl span-color font-bold">
+                                <h1 className="text-5xl my-8 font-bold">Hi! I&apos;m <span className="font-semibold bg-gradient "> MD:Nahid Hasan Mizan</span></h1>
+                                <h1 className="text-3xl bg-gradient font-bold">
                                     <Typewriter
                                         words={[
                                             'Web Designer',
