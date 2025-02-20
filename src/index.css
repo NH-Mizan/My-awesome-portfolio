@@ -5,9 +5,7 @@ body{
     background-color:  #10041c;
    
 }
-.active{
-    color: #00ff95;
-}
+
 
 .span-color{
     color: #00ff95;
@@ -158,7 +156,7 @@ h3 {
 
 .border-re{
     border-radius: 50% 50% 5px 5px;
-    box-shadow: -1px 5px 50px  #00ff95;
+    box-shadow: -1px 1px 30px 2px  #00ff95;
 
 }
 

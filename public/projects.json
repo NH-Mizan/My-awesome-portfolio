@@ -30,8 +30,8 @@
         "technology": "React, Tailwind CSS, Material Tailwind, Firebase, Node.js, Express.js, MongoDB",
         "description": "MatchNest is a matchmaking platform that helps users find potential matches based on their preferences. It simplifies the search process through intelligent filtering and secure authentication.",
         "live": "https://matchnest-project.web.app/",
-        "client": "https://github.com/Programming-Hero-Web-Course4/b10a12-client-side-NH-Mizan.git",
-        "server": "https://github.com/Programming-Hero-Web-Course4/b10a12-server-side-NH-Mizan.git",
+        "client": "https://github.com/NH-Mizan/Match-Nest-Matrimony-platform-client-site-.git",
+        "server": "https://github.com/NH-Mizan/Match-Nest-Matrimony-platform-server-site-.git",
         "challenges": "Implementing an effective and privacy-focused matchmaking algorithm was a challenge. Ensuring data security and handling user authentication seamlessly required extra attention.",
         "future_plans": "Future updates will include AI-driven profile recommendations, improved chat features, and advanced filtering options for better matchmaking accuracy."
     }
