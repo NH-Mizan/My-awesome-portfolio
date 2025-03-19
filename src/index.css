@@ -154,12 +154,6 @@ h3 {
 }
 
 
-.border-re{
-    border-radius: 50% 50% 5px 5px;
-    box-shadow: -1px 1px 30px 2px  #00ff95;
-
-}
-
 
 .bg-gradient {
     background: linear-gradient(-25deg,#c33bf9  0%,#00ff95 100%);

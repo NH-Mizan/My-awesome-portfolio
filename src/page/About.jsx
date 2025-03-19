@@ -1,38 +1,33 @@
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { motion } from "framer-motion";
 
 const About = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1000, once: true });
+  }, []);
+
   return (
-    <motion.div 
-      id="about" 
-      className="w-11/12 mx-auto min-h-screen pt-12"
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ duration: 1 }}
-    >
+    <div id="about" className="w-11/12 mx-auto min-h-screen pt-12">
       <div className="hero">
         <div className="flex justify-between items-center gap-12 flex-col lg:flex-row">
           {/* Animated Image */}
-          <motion.img
-            src="https://i.ibb.co.com/7x0dcdZS/nahid-removebg-preview.png"
-            className="rounded-lg w-84 bg-lime-300 border-re"
-            initial={{ x: -100, opacity: 0 }}
-            animate={{ x: 0, opacity: 1 }}
-            transition={{ duration: 1 }}
+          <img
+src="https://i.ibb.co.com/7x0dcdZS/nahid-removebg-preview.png"
+            className="rounded-full w-84 bg-lime-300"
+            data-aos="fade-right"
           />
-          
+
           {/* Text Content */}
-          <motion.div
-            initial={{ x: 100, opacity: 0 }}
-            animate={{ x: 0, opacity: 1 }}
-            transition={{ duration: 1, delay: 0.5 }}
-          >
+          <div data-aos="fade-left">
             <h1 className="text-5xl text-white font-bold">
               About <span className="span-color">Me!</span>
             </h1>
-            <p className="py-6 text-white">
-              Web Developer | | Front-End Developer | | MERN Stack Aspirant
-            </p>
-            <hr className="p-4" />
+            <h3 className="py-6  text-2xl text-white">
+            “Helping businesses grow with creative web design and development solutions.
+            </h3>
+            <hr className="p-4 text-xl" />
             <p>
               I am a passionate web developer with over two years of experience in building and delivering high-quality web applications. 
               My expertise lies in HTML, CSS, JavaScript, React, Tailwind CSS, Bootstrap, and jQuery, with a strong focus on creating 
@@ -47,11 +42,11 @@ const About = () => {
               <br /><br />
               Feel free to connect if you&apos;re looking for someone with a proactive mindset and a passion for continuous improvement...
               <br /><br />
-              <strong>Thank you!</strong>
+             
             </p>
 
             {/* Buttons with Hover Effects */}
-            <div className="mt-8">
+            <div className="mt-8" data-aos="fade-up">
               <motion.button 
                 className="btn-pro mr-6"
                 whileHover={{ scale: 1.1 }}
@@ -59,7 +54,7 @@ const About = () => {
               >
                 Hire Me
               </motion.button>
-              
+
               <motion.button 
                 className="btn-pro-max"
                 whileHover={{ scale: 1.1 }}
@@ -68,10 +63,10 @@ const About = () => {
                 Let&apos;s Talk
               </motion.button>
             </div>
-          </motion.div>
+          </div>
         </div>
       </div>
-    </motion.div>
+    </div>
   );
 };
 
