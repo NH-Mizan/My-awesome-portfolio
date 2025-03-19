@@ -32,11 +32,14 @@ const Projects = () => {
 
   return (
     <div id="portfolio" className="w-11/12 mx-auto py-10">
-      <h1 className="text-center my-8 text-5xl text-white font-bold">
+      <h1 className="text-center my-8 text-3xl lg:text-5xl text-white font-bold">
         <span className="span-color">MY</span> PORTFOLIO
       
       </h1>
-      <h2 className="font-semibold text-2xl flex  my-8"><img src="https://i.ibb.co.com/StHFBM7/Group.png"className="w-8 mr-4"alt="" /> Showcase of my  <span className="font-semibold text-2xl ml-4 bg-gradient"> 
+      <div className="">
+        
+      </div>
+      <h2 className="font-semibold text-lg lg:text-2xl flex  my-8"><img src="https://i.ibb.co.com/StHFBM7/Group.png"className="w-8 h-8 mr-4"alt="" /> Showcase of my  <span className="font-semibold text-2xl ml-4 bg-gradient"> 
       <Typewriter
                                         words={[" latest projects  🖥 "," and", "creative work💻 ", ]}
                                         loop={false}

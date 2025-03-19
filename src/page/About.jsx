@@ -24,7 +24,7 @@ src="https://i.ibb.co.com/7x0dcdZS/nahid-removebg-preview.png"
             <h1 className="text-5xl text-white font-bold">
               About <span className="span-color">Me!</span>
             </h1>
-            <h3 className="py-6  text-2xl text-white">
+            <h3 className="py-4  text-2xl text-white">
             “Helping businesses grow with creative web design and development solutions.
             </h3>
             <hr className="p-4 text-xl" />

@@ -35,10 +35,10 @@ const Testimonials = () => {
     };
 
     return (
-        <div className="w-11/12 mx-auto flex justify-between items-center py-10 text-white">
+        <div className="w-11/12 mx-auto grid lg:grid-cols-2 items-center py-10 text-white">
             <div className=" ">
                 <h4 className="flex mb-4  text-xl font-semibold"> <img src="https://i.ibb.co.com/StHFBM7/Group.png" className="w-6 h-6 mr-4" alt="" /> Client Reviews</h4>
-                <h2 className=" text-4xl font-bold">
+                <h2 className=" text-xl lg:text-4xl font-bold">
                     See what people are saying <br />
                     <span className="bg-gradient">
                         about my work
@@ -65,8 +65,8 @@ const Testimonials = () => {
                         </div>
                     </div>
                   <div className="">
-                  <p className=" mt-2 text-gray-300">
-                       <span className="font-bold "> 1,00+ Happy Clients</span> <br /> Work With People And Brands Worldwide.
+                  <p className="text-[12px] lg:text-lg md:text-lg mt-2 text-gray-300">
+                       <span className="font-bold  "> 1,00+ Happy Clients</span> <br /> Work With People And Brands Worldwide.
                     </p>
                   </div>
                 </div>
@@ -75,7 +75,7 @@ const Testimonials = () => {
             <div className="flex  mt-8">
                 <motion.div
                     key={testimonials[index].id}
-                    className=" w-full max-w-2xl p-8 bg-[#1e293b] rounded-lg shadow-lg text-center"
+                    className=" w-full max-w-2xl p-8 bg-[#2d15459b] rounded-lg shadow-lg text-center"
                     initial={{ opacity: 0, scale: 0.9 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.5 }}
@@ -88,9 +88,9 @@ const Testimonials = () => {
                     {/* Review Text */}
                     <p className="text-lg text-gray-300">{testimonials[index].review}</p>
 
-                    <div className="flex justify-between my-8 ">
+                    <div className="flex justify-between items-center  my-8 ">
                         {/* User Info */}
-                        <div className="flex items-center justify-center mt-4">
+                        <div className="flex items-center justify-between mt-4">
                             <img
                                 src={testimonials[index].image}
                                 alt={testimonials[index].name}
@@ -102,7 +102,7 @@ const Testimonials = () => {
                             </div>
                         </div>
                         {/* Navigation Buttons */}
-                        <div className=" -bottom-6 left-1/2 transform -translate-x-1/2 flex gap-4">
+                        <div className="   flex  gap-4">
                             <button
                                 onClick={handlePrev}
                                 className="p-2 bg-gray-700 rounded-full hover:bg-gray-600"
@@ -127,4 +127,4 @@ const Testimonials = () => {
     );
 };
 
-export default Testimonials;
+export default Testimonials
