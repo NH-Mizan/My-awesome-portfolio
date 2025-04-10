@@ -1,4 +1,17 @@
 [
+    
+    {
+        "id": 3,
+        "project_Name": "MatchNest",
+        "image": "https://i.ibb.co.com/tnRsRXC/Screenshot-106.png",
+        "technology": "React, Tailwind CSS, Material Tailwind, Firebase, Node.js, Express.js, MongoDB",
+        "description": "MatchNest is a matchmaking platform that helps users find potential matches based on their preferences. It simplifies the search process through intelligent filtering and secure authentication.",
+        "live": "https://matchnest-project.web.app/",
+        "client": "https://github.com/NH-Mizan/Match-Nest-Matrimony-platform-client-site-.git",
+        "server": "https://github.com/NH-Mizan/Match-Nest-Matrimony-platform-server-site-.git",
+        "challenges": "Implementing an effective and privacy-focused matchmaking algorithm was a challenge. Ensuring data security and handling user authentication seamlessly required extra attention.",
+        "future_plans": "Future updates will include AI-driven profile recommendations, improved chat features, and advanced filtering options for better matchmaking accuracy."
+    },
     {
         "id": 1,
         "project_Name": "Crowd Funding",
@@ -22,17 +35,5 @@
         "server": "https://github.com/NH-Mizan/Crowd-Funding-client-site.git",
         "challenges": "One major challenge was building a real-time tracking system that allows users to update lost/found item statuses dynamically. Ensuring user-generated content is reliable and preventing spam posts was another issue.",
         "future_plans": "Future improvements include integrating AI-powered image recognition for lost items, improving search algorithms, and adding a reward system to encourage item returns."
-    },
-    {
-        "id": 3,
-        "project_Name": "MatchNest",
-        "image": "https://i.ibb.co.com/tnRsRXC/Screenshot-106.png",
-        "technology": "React, Tailwind CSS, Material Tailwind, Firebase, Node.js, Express.js, MongoDB",
-        "description": "MatchNest is a matchmaking platform that helps users find potential matches based on their preferences. It simplifies the search process through intelligent filtering and secure authentication.",
-        "live": "https://matchnest-project.web.app/",
-        "client": "https://github.com/NH-Mizan/Match-Nest-Matrimony-platform-client-site-.git",
-        "server": "https://github.com/NH-Mizan/Match-Nest-Matrimony-platform-server-site-.git",
-        "challenges": "Implementing an effective and privacy-focused matchmaking algorithm was a challenge. Ensuring data security and handling user authentication seamlessly required extra attention.",
-        "future_plans": "Future updates will include AI-driven profile recommendations, improved chat features, and advanced filtering options for better matchmaking accuracy."
     }
 ]

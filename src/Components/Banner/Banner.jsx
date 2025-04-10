@@ -49,27 +49,28 @@ const Banner = () => {
                                         typeSpeed={80}
                                         deleteSpeed={50}
                                         delaySpeed={1500}
+                                         cursorColor="white"
                                     />
                                 </h1>
                                 <p className="py-6" data-aos="fade-up" data-aos-delay="300">
                                     From Dinajpur, Bangladesh. I&apos;m a Front End Web Developer who is passionate about making error-free websites. I am good at Responsive web Design, I love to talk with you about your unique projects.
                                 </p>
                                 <div className="btn-pro text-sm" data-aos="zoom-in">
-                                    <button className="flex items-center gap-2">
-                                        Resume Here <FaDownload />
+                                    <button >
+                                       <a href="/MyResume.pdf" download className="flex items-center gap-2"> Resume Here <FaDownload /></a>
                                     </button>
                                 </div>
                                 <div className="flex gap-4 my-12 font-bold text-lg" data-aos="fade-up" data-aos-delay="500">
-                                    <Link className="btn-ui">
+                                    <Link to={`https://www.linkedin.com/in/nh-mizan-63326b2b7/`} className="btn-ui">
                                         <FaLinkedinIn />
                                     </Link>
-                                    <Link className="btn-ui">
+                                    <Link to={`https://github.com/NH-Mizan`} className="btn-ui">
                                         <FaGithub />
                                     </Link>
-                                    <Link className="btn-ui">
+                                    <Link to={`https://www.facebook.com/share/1H6uEk7zxc/`} className="btn-ui">
                                         <FaFacebook />
                                     </Link>
-                                    <Link className="btn-ui">
+                                    <Link to={`/`} className="btn-ui">
                                         <TfiEmail />
                                     </Link>
                                 </div>

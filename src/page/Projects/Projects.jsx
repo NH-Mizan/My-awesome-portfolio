@@ -39,7 +39,7 @@ const Projects = () => {
       <div className="">
         
       </div>
-      <h2 className="font-semibold text-lg lg:text-2xl flex  my-8"><img src="https://i.ibb.co.com/StHFBM7/Group.png"className="w-8 h-8 mr-4"alt="" /> Showcase of my  <span className="font-semibold text-2xl ml-4 bg-gradient"> 
+      <h2 className="font-semibold text-lg lg:text-2xl flex items-center  my-8"><img src="https://i.ibb.co.com/StHFBM7/Group.png"className="w-6 h-6 mr-4"alt="" /> Showcase of my  <span className="font-semibold text-2xl ml-4 bg-gradient"> 
       <Typewriter
                                         words={[" latest projects  🖥 "," and", "creative work💻 ", ]}
                                         loop={false}
