@@ -32,7 +32,7 @@ const Projects = () => {
 
   return (
     <div id="portfolio" className="w-11/12 mx-auto py-10">
-      <h1 className="text-center my-8 text-3xl lg:text-5xl text-white font-bold">
+      <h1 className="text-end my-8 text-3xl lg:text-5xl text-white font-bold">
         <span className="span-color">MY</span> PORTFOLIO
       
       </h1>
