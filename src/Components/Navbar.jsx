@@ -15,7 +15,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="w-full fixed top-0 z-[99] bg-dark">
+    <div className="w-full fixed top-0 z-[99] bg-dark bg-opacity-60 backdrop-blur-lg">
       <div className="relative">
         <nav className="w-11/12 mx-auto">
           <div className="py-4 mx-auto">
@@ -60,7 +60,7 @@ const Navbar = () => {
 
               {/* Mobile Menu */}
               <div
-                className={`absolute inset-x-0 z-20 w-full px-6 py-4 transition-all duration-300 ease-in-out bg-dark lg:mt-0 lg:p-0 lg:top-0 lg:relative lg:bg-transparent lg:w-auto lg:opacity-100 lg:translate-x-0 lg:flex lg:items-center ${
+                className={`absolute inset-x-0 z-20 w-full px-6 py-4 transition-all duration-300 ease-in-out bg-dark bg-opacity-60 backdrop-blur-md lg:mt-0 lg:p-0 lg:top-0 lg:relative lg:bg-transparent lg:w-auto lg:opacity-100 lg:translate-x-0 lg:flex lg:items-center ${
                   isOpen ? "translate-x-0 opacity-100" : "opacity-0 -translate-x-full"
                 }`}
               >

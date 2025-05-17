@@ -27,7 +27,7 @@ const Skills = () => {
                 I Have <span className="span-color">Skills!</span>
             </h1>
             <div className="mt-12 grid lg:grid-cols-2 grid-cols-1 ">
-                <div className=" border-r-2 p-12">
+                <div className=" border-r-2 pr-12">
                     {/* Frontend Tecnologys */}
 
                     <h2 className="font-semibold text-lg lg:text-2xl flex items-center   my-8"><img src="https://i.ibb.co.com/StHFBM7/Group.png" className="w-6 h-6 mr-4" alt="" />skills <span className="font-semibold text-2xl ml-4 bg-gradient">

@@ -24,7 +24,7 @@ const Contact = () => {
         Contact <span className="span-color">Us!</span>
       </h1>
       <div
-        className="border-2 border-[#61557c] shadow-lg rounded-lg overflow-hidden md:flex md:max-w-4xl w-full"
+        className="border-2 w-11/12 border-[#61557c] shadow-lg rounded-lg overflow-hidden md:flex  "
         data-aos="fade-up"
       >
         {/* Left Section: Contact Form */}
@@ -32,7 +32,7 @@ const Contact = () => {
           <h3 className="text-2xl font-bold mb-4">Send Us a Message</h3>
           <form onSubmit={handleSubmit} className="space-y-4">
             <div>
-              <label className="block text-gray-700 font-bold">Your Name</label>
+              <label className="block text-[#fff] mb-2  font-bold">Your Name</label>
               <input
                 type="text"
                 className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring focus:ring-blue-300 border-[#61557c]"
@@ -41,7 +41,7 @@ const Contact = () => {
               />
             </div>
             <div>
-              <label className="block text-gray-700 font-bold">Email</label>
+              <label className="block text-[#fff] mb-2  font-bold">Email</label>
               <input
                 type="email"
                 className="w-full px-4 py-2 rounded-lg focus:outline-none focus:ring focus:ring-blue-300 border-[#61557c]"
@@ -50,7 +50,7 @@ const Contact = () => {
               />
             </div>
             <div>
-              <label className="block text-gray-700 font-bold">Message</label>
+              <label className="block text-[#fff] mb-2 font-bold">Message</label>
               <textarea
                 className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring focus:ring-blue-300 border-[#61557c]"
                 rows="5"
@@ -71,11 +71,11 @@ const Contact = () => {
 
         {/* Right Section: Contact Information */}
         <div className="md:w-4/12 text-white p-6 flex flex-col justify-center items-start" data-aos="fade-left">
-        <h2 className="font-semibold text-xl  ">Get in touch to discuss your <span className="font-semibold text-xl bg-gradient">  next project 
-         </span></h2>
+          <h2 className="font-semibold text-xl  ">Get in touch to discuss your <span className="font-semibold text-xl bg-gradient">  next project
+          </span></h2>
 
           <p className="mb-4 ">
-          Are you ready to take your project to the next level? Whether you’re looking for a new website a web application, or simply need advice.
+            Are you ready to take your project to the next level? Whether you’re looking for a new website a web application, or simply need advice.
           </p>
           <div className="space-y-4">
             <div className="flex items-center gap-6">
